@@ -1,0 +1,91 @@
+{
+  "company": {
+    "name": "KONICA MINOLTA BUSINESS SOLUTIONS",
+    "address": "4451 E Cotton Center Blvd",
+    "address2": "Suite 100",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85040",
+    "corporate_address": "Ramsey, NJ",
+    "ein": "13-1921089",
+    "phone": "(602) 555-0123"
+  },
+  "employee": {
+    "first_name": "Nick",
+    "last_name": "Walker",
+    "employee_id": "NW2024",
+    "department": "IT Services",
+    "position": "IT Technician",
+    "tax_info": {
+      "filing_status": "single",
+      "allowances": 1
+    },
+    "insurance": {
+      "medical_cost": 180.00,
+      "dental_cost": 25.00,
+      "vision_cost": 15.00
+    },
+    "retirement": {
+      "contribution_percent": 4.0
+    },
+    "vacation": {
+      "current_balance": 32.0,
+      "accrual_rate_per_hour": 0.0385,
+      "hours_used_this_period": 0.0
+    }
+  },
+  "pay_period": {
+    "start_date": "2024-08-15",
+    "end_date": "2024-08-28",
+    "pay_date": "2024-08-29",
+    "frequency": "Bi-Weekly",
+    "earnings": [
+      {
+        "description": "Regular Pay",
+        "hours": 80.0,
+        "rate": 22.50,
+        "current": 1800.00
+      },
+      {
+        "description": "Overtime",
+        "hours": 0.0,
+        "rate": 33.75,
+        "current": 0.00
+      }
+    ],
+    "deductions": [
+      {
+        "description": "Federal Income Tax",
+        "current": 180.00
+      },
+      {
+        "description": "AZ State Income Tax",
+        "current": 40.00
+      },
+      {
+        "description": "Social Security",
+        "current": 111.60
+      },
+      {
+        "description": "Medicare",
+        "current": 26.10
+      },
+      {
+        "description": "Medical Insurance",
+        "current": 180.00
+      },
+      {
+        "description": "Dental Insurance",
+        "current": 25.00
+      },
+      {
+        "description": "Vision Insurance",
+        "current": 15.00
+      },
+      {
+        "description": "401(k) Contribution",
+        "current": 72.00
+      }
+    ]
+  }
+}

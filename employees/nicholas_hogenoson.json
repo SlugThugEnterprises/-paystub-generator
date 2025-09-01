@@ -1,0 +1,90 @@
+{
+  "company": {
+    "name": "KONICA MINOLTA BUSINESS SOLUTIONS",
+    "address": "4451 E Cotton Center Blvd",
+    "address2": "Suite 100",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85040",
+    "corporate_address": "Ramsey, NJ",
+    "ein": "13-1921089",
+    "phone": "(602) 555-0123"
+  },
+  "employee": {
+    "first_name": "Nicholas",
+    "last_name": "Hogenoson",
+    "employee_id": "P2937M2",
+    "ssn_last4": "3697",
+    "department": "Managed IT Services",
+    "position": "Project Manager 2",
+    "tax_info": {
+      "filing_status": "single",
+      "allowances": 2
+    },
+    "insurance": {
+      "medical_cost": 132.0,
+      "dental_cost": 25.0,
+      "vision_cost": 0.0
+    },
+    "retirement": {
+      "contribution_percent": 3.0
+    },
+    "vacation": {
+      "current_balance": 40.0,
+      "accrual_rate_per_hour": 0.0385,
+      "hours_used_this_period": 0.0
+    }
+  },
+  "pay_period": {
+    "start_date": "2025-08-17",
+    "end_date": "2025-08-30",
+    "pay_date": "2025-08-31",
+    "frequency": "Bi-Weekly",
+    "earnings": [
+      {
+        "description": "Regular Pay",
+        "hours": 80.0,
+        "rate": 39.42,
+        "current": 3153.6000000000004,
+        "ytd": 56764.8
+      }
+    ],
+    "deductions": [
+      {
+        "description": "Federal Income Tax",
+        "current": 317.0035384615385,
+        "ytd": 5706.063692307693
+      },
+      {
+        "description": "AZ State Income Tax",
+        "current": 70.46024000000001,
+        "ytd": 1268.2843200000002
+      },
+      {
+        "description": "Social Security",
+        "current": 195.52320000000003,
+        "ytd": 3519.4176000000007
+      },
+      {
+        "description": "Medicare",
+        "current": 45.72720000000001,
+        "ytd": 823.0896000000002
+      },
+      {
+        "description": "Medical Insurance",
+        "current": 132.0,
+        "ytd": 2376.0
+      },
+      {
+        "description": "Dental Insurance",
+        "current": 25.0,
+        "ytd": 450.0
+      },
+      {
+        "description": "401(k) Contribution",
+        "current": 94.608,
+        "ytd": 1702.944
+      }
+    ]
+  }
+}

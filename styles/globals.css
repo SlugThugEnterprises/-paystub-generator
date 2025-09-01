@@ -3,3 +3,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Print styles for pay stubs */
+@media print {
+  body {
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Hide non-essential elements when printing */
+  a[href]:after {
+    content: none !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  /* Ensure pay stub is printed properly */
+  .paystub-container {
+    box-shadow: none;
+    border: none;
+  }
+}
