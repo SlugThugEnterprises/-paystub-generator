@@ -1,7 +1,14 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getEmployeeData } from '../../../utils/paystubData.js';
+import { getEmployeeData, getEmployeeFiles } from '../../../utils/paystubData.js';
 import { PayStub } from '../../../components/PayStub.jsx';
+
+// Pre-render all paystub pages at build time so they work on Netlify
+export const dynamic = 'error';
+export async function generateStaticParams() {
+  const files = getEmployeeFiles();
+  return files.map((file) => ({ employeeId: file.replace('.json', '') }));
+}
 
 export default async function PayStubPage({ params }) {
   const { employeeId } = params;
